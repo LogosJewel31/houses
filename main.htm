@@ -19,7 +19,7 @@
     <div class="logo-container">
       <i class="fas fa-key gold-key"></i>
       <div class="text">
-        <span class="name">Emma Carter</span> <br>
+        <span class="name">Emma Carter</span>
         <span class="subname">Real Estate</span>
       </div>
     </div>
@@ -284,24 +284,25 @@
 </section>
 
 <section class="testimonials" id="testimonials">
-  <h2>CLIENT EXPERIENCES</h2>
-  <div class="testimonial-wrapper">
-    <button class="arrow arrow-left" onclick="changeSlide(-1)">
-      <i class="fas fa-arrow-left"></i>
-    </button>
 
+  <input type="radio" name="testimonial" id="t1" checked>
+  <input type="radio" name="testimonial" id="t2">
+  <input type="radio" name="testimonial" id="t3">
+  <input type="radio" name="testimonial" id="t4">
+
+  <h2>CLIENT EXPERIENCES</h2>
+
+  <div class="testimonial-wrapper">
     <div class="testimonial-track">
 
-      <div class="testimonial-slide active">
+      <div class="testimonial-slide">
         <div class="testimonial-image">
           <img src="../architecture/assets/image1.png" alt="Jewel Logos" />
         </div>
         <div class="testimonial-content">
           <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
           <p>"I worked with Emma Carter, we looked at about 20 different homes, she had great insight and advice. She worked around the clock, and helped us with 3 different offers. We finally got a great home and started with equity!"</p>
@@ -315,10 +316,8 @@
         </div>
         <div class="testimonial-content">
           <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
           <p>"Emma made the entire process seamless. Her knowledge of the Austin market is unmatched and she always had our best interests at heart."</p>
@@ -332,10 +331,8 @@
         </div>
         <div class="testimonial-content">
           <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
           <p>"Professional, responsive, and genuinely caring. Emma went above and beyond to help us find the perfect home in West Lake Hills."</p>
@@ -349,10 +346,8 @@
         </div>
         <div class="testimonial-content">
           <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
           </div>
           <p>"We were first-time buyers and Emma guided us every step of the way. We couldn't have done it without her expertise and patience."</p>
@@ -361,19 +356,94 @@
       </div>
 
     </div>
-    <button class="arrow arrow-right" onclick="changeSlide(1)">
-      <i class="fas fa-arrow-right"></i>
-    </button>
-
   </div>
+
   <div class="testimonial-dots">
-    <span class="dot active" onclick="goToSlide(0)"></span>
-    <span class="dot" onclick="goToSlide(1)"></span>
-    <span class="dot" onclick="goToSlide(2)"></span>
-    <span class="dot" onclick="goToSlide(3)"></span>
+    <label for="t1" class="dot"></label>
+    <label for="t2" class="dot"></label>
+    <label for="t3" class="dot"></label>
+    <label for="t4" class="dot"></label>
   </div>
 
 </section>
+
+<section class="contact-section" id="contact">
+  <h2>CONTACT ME</h2>
+  <p class="contact-sub">Ready to get started? Let's discuss your next move.</p>
+
+  <div class="contact-cards">
+    <div class="contact-card">
+      <i class="fas fa-envelope"></i>
+      <h3>Email Me</h3>
+      <p>For general inquiries.</p>
+      <a href="mailto:emma.carter@example.com">emma.carter@example.com</a>
+    </div>
+
+    <div class="contact-card">
+      <i class="fas fa-phone"></i>
+      <h3>Text or Call</h3>
+      <p>For a quick response.</p>
+      <a href="tel:+15125895852">+1 (512) 589 58-52</a>
+    </div>
+
+    <div class="contact-card">
+      <i class="fas fa-thumbs-up"></i>
+      <h3>Follow on Social Media</h3>
+      <p>For latest updates.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-location">
+    <i class="fas fa-map-marker-alt"></i>
+    <span>Austin, Texas</span>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <i class="fas fa-key gold-key"></i>
+        <div class="footer-logo-text">
+          <span class="footer-name">Emma Carter</span>
+          <span class="footer-sub">REAL ESTATE</span>
+        </div>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+
+    <nav class="footer-nav">
+      <div class="footer-nav-col">
+        <a href="#">Buy</a>
+        <a href="#">Rent</a>
+        <a href="#">Sell</a>
+      </div>
+      <div class="footer-nav-col">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+
+    <div class="footer-house">
+      <img src="images/illustration house.png" alt="House" />
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Emma Carter Real Estate</p>
+  </div>
+</footer>
 
 </body>
 
